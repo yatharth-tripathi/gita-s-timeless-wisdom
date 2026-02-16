@@ -12,14 +12,14 @@ const SlideTitleSlide = ({ total }: { total: number }) => (
       <h1 className="font-display text-[72px] leading-[1.15] text-center text-gradient-gold slide-glow animate-fade-in-up-delay-1 font-bold">
         Relevance of the Bhagavad Gita
       </h1>
-      <h2 className="font-display text-[48px] text-center text-primary/80 animate-fade-in-up-delay-2 mt-[10px]">
+      <h2 className="font-display text-[48px] text-center text-primary/80 animate-fade-in-up-delay-2 mt-[10px] font-bold">
         in Today's Life
       </h2>
       <OrnamentDivider className="my-[40px] animate-fade-in-up-delay-3" />
-      <p className="font-elegant text-[30px] text-foreground/70 text-center italic animate-fade-in-up-delay-3">
+      <p className="font-elegant text-[30px] text-foreground/80 text-center italic animate-fade-in-up-delay-3 font-semibold">
         Understanding Ancient Wisdom in a Modern World
       </p>
-      <p className="font-body text-[22px] text-primary/50 mt-[50px] tracking-[3px] animate-fade-in-up-delay-4">
+      <p className="font-body text-[22px] text-primary/60 mt-[50px] tracking-[3px] animate-fade-in-up-delay-4 font-semibold">
         Presented by Your Name + Group Members
       </p>
     </div>

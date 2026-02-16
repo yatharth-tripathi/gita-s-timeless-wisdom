@@ -40,7 +40,7 @@ const SlideLayout = ({ children, variant = "content", backgroundImage }: SlideLa
           style={{ backgroundImage: `url(${backgroundImage || slideBg})` }}
         />
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-slide-deep/60" />
+        <div className="absolute inset-0 bg-slide-deep/85" />
         {/* Gold border frame */}
         <div className="absolute inset-[20px] border border-primary/20 rounded-sm" />
         <div className="absolute inset-[24px] border border-primary/10 rounded-sm" />

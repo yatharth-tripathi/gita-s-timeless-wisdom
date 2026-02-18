@@ -5,23 +5,61 @@ import spiritualBg from "@/assets/spiritual-bg.jpg";
 
 const SlideTitleSlide = ({ total }: { total: number }) => (
   <SlideLayout variant="title" backgroundImage={spiritualBg}>
-    <div className="flex-1 flex flex-col items-center justify-center px-[200px]">
-      <p className="font-display text-[22px] tracking-[8px] text-primary/70 uppercase animate-fade-in-up mb-[30px]">
-        ॐ
-      </p>
-      <h1 className="font-display text-[72px] leading-[1.15] text-center text-gradient-gold slide-glow animate-fade-in-up-delay-1 font-bold">
-        Relevance of the Bhagavad Gita
+    <div className="flex-1 flex flex-col items-center justify-center px-[100px] py-[60px]">
+      {/* Institute Name */}
+      <h1 className="font-display text-[36px] text-gradient-gold slide-glow animate-fade-in-up font-bold tracking-wide text-center uppercase">
+        Shri G.S. Institute of Technology And Science
       </h1>
-      <h2 className="font-display text-[48px] text-center text-primary/80 animate-fade-in-up-delay-2 mt-[10px] font-bold">
-        in Today's Life
+      <p className="font-display text-[24px] text-primary/80 animate-fade-in-up-delay-1 mt-[8px] tracking-[2px]">
+        Department of Computer Engineering
+      </p>
+
+      {/* Logo placeholder */}
+      <div className="my-[30px] animate-fade-in-up-delay-2">
+        <div className="w-[120px] h-[120px] rounded-full border-4 border-primary/60 flex items-center justify-center bg-gradient-to-br from-amber-900/30 to-amber-700/20">
+          <span className="font-display text-[28px] text-primary font-bold">SGSITS</span>
+        </div>
+      </div>
+
+      {/* Course Name */}
+      <p className="font-elegant text-[22px] text-primary/70 animate-fade-in-up-delay-2 tracking-[4px] uppercase">
+        Essence of Indian Knowledge and Tradition (EIKT)
+      </p>
+
+      <OrnamentDivider className="my-[25px] animate-fade-in-up-delay-3" />
+
+      {/* Title */}
+      <h2 className="font-display text-[52px] leading-[1.2] text-center text-gradient-gold slide-glow animate-fade-in-up-delay-3 font-bold">
+        Relevance of the Bhagavad Gita
       </h2>
-      <OrnamentDivider className="my-[40px] animate-fade-in-up-delay-3" />
-      <p className="font-elegant text-[30px] text-foreground/80 text-center italic animate-fade-in-up-delay-3 font-semibold">
+      <h3 className="font-display text-[36px] text-center text-primary/80 animate-fade-in-up-delay-3 font-bold">
+        in Today's Life
+      </h3>
+
+      {/* Subtitle */}
+      <p className="font-elegant text-[24px] text-foreground/80 text-center italic animate-fade-in-up-delay-3 mt-[15px] font-semibold">
         Understanding Ancient Wisdom in a Modern World
       </p>
-      <p className="font-body text-[22px] text-primary/60 mt-[50px] tracking-[3px] animate-fade-in-up-delay-4 font-semibold">
-        Presented by Your Name + Group Members
-      </p>
+
+      {/* Submitted info */}
+      <div className="flex justify-between w-full mt-[40px] px-[60px] animate-fade-in-up-delay-4">
+        <div className="text-left">
+          <p className="font-display text-[18px] text-primary/90 font-bold mb-[8px]">Submitted By:</p>
+          <p className="font-body text-[16px] text-foreground/80 leading-[1.8]">
+            Divya Parmar<br />
+            Reshma Gond<br />
+            Yatharth Urmaliya
+          </p>
+        </div>
+        <div className="text-right">
+          <p className="font-display text-[18px] text-primary/90 font-bold mb-[8px]">Guided By:</p>
+          <p className="font-body text-[16px] text-foreground/80 leading-[1.8]">
+            Ms. Shweta Sudele<br />
+            Ms. Ishita Reja<br />
+            Ms. Bhumika Rawat
+          </p>
+        </div>
+      </div>
     </div>
     <SlideNumber current={1} total={total} />
   </SlideLayout>

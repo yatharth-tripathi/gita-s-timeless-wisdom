@@ -41,7 +41,7 @@ const SlideLeadership = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={9} total={total} />
+    <SlideNumber current={10} total={total} />
   </SlideLayout>
 );
 

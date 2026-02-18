@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight, Maximize } from "lucide-react";
 import SlideTitleSlide from "@/components/slides/SlideTitleSlide";
+import SlideIntroduction from "@/components/slides/SlideIntroduction";
 import SlideBackground from "@/components/slides/SlideBackground";
 import SlideConfusion from "@/components/slides/SlideConfusion";
 import SlideKarmaYoga from "@/components/slides/SlideKarmaYoga";
@@ -10,11 +11,13 @@ import SlideDetachment from "@/components/slides/SlideDetachment";
 import SlideSelfRealisation from "@/components/slides/SlideSelfRealisation";
 import SlideLeadership from "@/components/slides/SlideLeadership";
 import SlideConclusion from "@/components/slides/SlideConclusion";
+import SlideReferences from "@/components/slides/SlideReferences";
 
-const TOTAL_SLIDES = 10;
+const TOTAL_SLIDES = 12;
 
 const slides = [
   SlideTitleSlide,
+  SlideIntroduction,
   SlideBackground,
   SlideConfusion,
   SlideKarmaYoga,
@@ -24,6 +27,7 @@ const slides = [
   SlideSelfRealisation,
   SlideLeadership,
   SlideConclusion,
+  SlideReferences,
 ];
 
 const Index = () => {

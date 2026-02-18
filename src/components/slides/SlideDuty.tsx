@@ -51,7 +51,7 @@ const SlideDuty = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={5} total={total} />
+    <SlideNumber current={6} total={total} />
   </SlideLayout>
 );
 

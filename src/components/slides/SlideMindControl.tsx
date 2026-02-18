@@ -44,7 +44,7 @@ const SlideMindControl = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={6} total={total} />
+    <SlideNumber current={7} total={total} />
   </SlideLayout>
 );
 

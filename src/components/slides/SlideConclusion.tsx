@@ -36,7 +36,7 @@ const SlideConclusion = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={10} total={total} />
+    <SlideNumber current={11} total={total} />
   </SlideLayout>
 );
 

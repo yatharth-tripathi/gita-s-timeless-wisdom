@@ -34,7 +34,7 @@ const SlideDetachment = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={7} total={total} />
+    <SlideNumber current={8} total={total} />
   </SlideLayout>
 );
 

@@ -41,7 +41,7 @@ const SlideKarmaYoga = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={4} total={total} />
+    <SlideNumber current={5} total={total} />
   </SlideLayout>
 );
 

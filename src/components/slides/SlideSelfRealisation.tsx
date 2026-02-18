@@ -32,7 +32,7 @@ const SlideSelfRealisation = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={8} total={total} />
+    <SlideNumber current={9} total={total} />
   </SlideLayout>
 );
 

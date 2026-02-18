@@ -44,7 +44,7 @@ const SlideConfusion = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={3} total={total} />
+    <SlideNumber current={4} total={total} />
   </SlideLayout>
 );
 

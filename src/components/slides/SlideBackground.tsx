@@ -28,7 +28,7 @@ const SlideBackground = ({ total }: { total: number }) => (
         </div>
       </div>
     </div>
-    <SlideNumber current={2} total={total} />
+    <SlideNumber current={3} total={total} />
   </SlideLayout>
 );
 

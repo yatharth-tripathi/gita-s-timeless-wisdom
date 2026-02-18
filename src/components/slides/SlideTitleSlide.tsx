@@ -14,11 +14,13 @@ const SlideTitleSlide = ({ total }: { total: number }) => (
         Department of Computer Engineering
       </p>
 
-      {/* Logo placeholder */}
+      {/* Logo */}
       <div className="my-[30px] animate-fade-in-up-delay-2">
-        <div className="w-[120px] h-[120px] rounded-full border-4 border-primary/60 flex items-center justify-center bg-gradient-to-br from-amber-900/30 to-amber-700/20">
-          <span className="font-display text-[28px] text-primary font-bold">SGSITS</span>
-        </div>
+        <img
+          src="/sgsits-logo.png"
+          alt="SGSITS Logo"
+          className="w-[140px] h-[140px] object-contain"
+        />
       </div>
 
       {/* Course Name */}
